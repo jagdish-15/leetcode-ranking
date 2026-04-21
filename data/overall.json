@@ -13,11 +13,11 @@
     "name": "Harshad Bhalsing",
     "id": "harsh-0_2",
     "data": {
-      "easySolved": 117,
+      "easySolved": 118,
       "mediumSolved": 232,
       "hardSolved": 45
     },
-    "score": 1038
+    "score": 1039
   },
   {
     "name": "Lingayat Arya Kamlesh",
@@ -33,11 +33,11 @@
     "name": "Anurag",
     "id": "anuragmuley",
     "data": {
-      "easySolved": 215,
+      "easySolved": 216,
       "mediumSolved": 221,
       "hardSolved": 8
     },
-    "score": 918
+    "score": 919
   },
   {
     "name": "Saniya Gupte",
@@ -74,20 +74,20 @@
     "id": "aryanpatil123",
     "data": {
       "easySolved": 85,
-      "mediumSolved": 121,
+      "mediumSolved": 122,
       "hardSolved": 14
     },
-    "score": 518
+    "score": 521
   },
   {
     "name": "Rajat malapur",
     "id": "rajatmalapur",
     "data": {
-      "easySolved": 137,
+      "easySolved": 138,
       "mediumSolved": 83,
       "hardSolved": 6
     },
-    "score": 416
+    "score": 417
   },
   {
     "name": "Rayyan Shaikh",
@@ -104,10 +104,10 @@
     "id": "yashbora",
     "data": {
       "easySolved": 74,
-      "mediumSolved": 85,
+      "mediumSolved": 87,
       "hardSolved": 5
     },
-    "score": 354
+    "score": 360
   },
   {
     "name": "Atharv Kirulkar",
@@ -170,6 +170,16 @@
     "score": 188
   },
   {
+    "name": "Avinash Ganore",
+    "id": "IAvii",
+    "data": {
+      "easySolved": 32,
+      "mediumSolved": 40,
+      "hardSolved": 2
+    },
+    "score": 162
+  },
+  {
     "name": "Yash Jawale",
     "id": "Cross440",
     "data": {
@@ -178,16 +188,6 @@
       "hardSolved": 4
     },
     "score": 157
-  },
-  {
-    "name": "Avinash Ganore",
-    "id": "IAvii",
-    "data": {
-      "easySolved": 32,
-      "mediumSolved": 39,
-      "hardSolved": 1
-    },
-    "score": 154
   },
   {
     "name": "Vaishnavi Borkar",
@@ -413,11 +413,11 @@
     "name": "Vanshika Khanna",
     "id": "Vanshikakhanna",
     "data": {
-      "easySolved": 9,
+      "easySolved": 10,
       "mediumSolved": 8,
       "hardSolved": 1
     },
-    "score": 38
+    "score": 39
   },
   {
     "name": "Aryan Anoop Parihar",
