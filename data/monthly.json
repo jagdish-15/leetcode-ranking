@@ -14,40 +14,30 @@
     "id": "aryanpatil123",
     "data": {
       "easySolved": 5,
-      "mediumSolved": 30,
+      "mediumSolved": 31,
       "hardSolved": 0
     },
-    "score": 95
+    "score": 98
   },
   {
     "name": "YASH YOGESH BORA",
     "id": "yashbora",
     "data": {
-      "easySolved": 8,
-      "mediumSolved": 21,
+      "easySolved": 7,
+      "mediumSolved": 19,
       "hardSolved": 2
     },
-    "score": 81
+    "score": 74
   },
   {
     "name": "Atharv Kirulkar",
     "id": "atharvkirulkar",
     "data": {
       "easySolved": 2,
-      "mediumSolved": 17,
-      "hardSolved": 4
+      "mediumSolved": 16,
+      "hardSolved": 3
     },
-    "score": 73
-  },
-  {
-    "name": "Rayyan Shaikh",
-    "id": "RayyanShaikh",
-    "data": {
-      "easySolved": 6,
-      "mediumSolved": 8,
-      "hardSolved": 1
-    },
-    "score": 35
+    "score": 65
   },
   {
     "name": "Shrinidhi Upadhye",
@@ -55,6 +45,16 @@
     "data": {
       "easySolved": 6,
       "mediumSolved": 7,
+      "hardSolved": 1
+    },
+    "score": 32
+  },
+  {
+    "name": "Vanshika Khanna",
+    "id": "Vanshikakhanna",
+    "data": {
+      "easySolved": 3,
+      "mediumSolved": 8,
       "hardSolved": 1
     },
     "score": 32
@@ -70,14 +70,24 @@
     "score": 30
   },
   {
-    "name": "Vanshika Khanna",
-    "id": "Vanshikakhanna",
+    "name": "Anurag",
+    "id": "anuragmuley",
     "data": {
-      "easySolved": 3,
+      "easySolved": 6,
       "mediumSolved": 7,
+      "hardSolved": 0
+    },
+    "score": 27
+  },
+  {
+    "name": "Rayyan Shaikh",
+    "id": "RayyanShaikh",
+    "data": {
+      "easySolved": 5,
+      "mediumSolved": 5,
       "hardSolved": 1
     },
-    "score": 29
+    "score": 25
   },
   {
     "name": "Prathit Joshi",
@@ -90,14 +100,14 @@
     "score": 25
   },
   {
-    "name": "Anurag",
-    "id": "anuragmuley",
+    "name": "Avinash Ganore",
+    "id": "IAvii",
     "data": {
-      "easySolved": 6,
-      "mediumSolved": 6,
-      "hardSolved": 0
+      "easySolved": 3,
+      "mediumSolved": 5,
+      "hardSolved": 1
     },
-    "score": 24
+    "score": 23
   },
   {
     "name": "ARCHANA KUMARI",
@@ -108,16 +118,6 @@
       "hardSolved": 0
     },
     "score": 23
-  },
-  {
-    "name": "Avinash Ganore",
-    "id": "IAvii",
-    "data": {
-      "easySolved": 2,
-      "mediumSolved": 5,
-      "hardSolved": 1
-    },
-    "score": 22
   },
   {
     "name": "Vaishnavi Borkar",
