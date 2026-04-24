@@ -13,31 +13,31 @@
     "name": "Aryan Shashikant Patil",
     "id": "aryanpatil123",
     "data": {
-      "easySolved": 5,
-      "mediumSolved": 31,
+      "easySolved": 4,
+      "mediumSolved": 30,
       "hardSolved": 0
     },
-    "score": 98
+    "score": 94
   },
   {
     "name": "YASH YOGESH BORA",
     "id": "yashbora",
     "data": {
       "easySolved": 7,
-      "mediumSolved": 19,
-      "hardSolved": 2
+      "mediumSolved": 18,
+      "hardSolved": 3
     },
-    "score": 74
+    "score": 76
   },
   {
     "name": "Atharv Kirulkar",
     "id": "atharvkirulkar",
     "data": {
       "easySolved": 2,
-      "mediumSolved": 16,
+      "mediumSolved": 15,
       "hardSolved": 3
     },
-    "score": 65
+    "score": 62
   },
   {
     "name": "Shrinidhi Upadhye",
@@ -80,16 +80,6 @@
     "score": 27
   },
   {
-    "name": "Rayyan Shaikh",
-    "id": "RayyanShaikh",
-    "data": {
-      "easySolved": 5,
-      "mediumSolved": 5,
-      "hardSolved": 1
-    },
-    "score": 25
-  },
-  {
     "name": "Prathit Joshi",
     "id": "prathitjoshi",
     "data": {
@@ -118,6 +108,16 @@
       "hardSolved": 0
     },
     "score": 23
+  },
+  {
+    "name": "Rayyan Shaikh",
+    "id": "RayyanShaikh",
+    "data": {
+      "easySolved": 5,
+      "mediumSolved": 5,
+      "hardSolved": 0
+    },
+    "score": 20
   },
   {
     "name": "Vaishnavi Borkar",

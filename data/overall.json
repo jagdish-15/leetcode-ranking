@@ -14,10 +14,10 @@
     "id": "harsh-0_2",
     "data": {
       "easySolved": 118,
-      "mediumSolved": 234,
+      "mediumSolved": 235,
       "hardSolved": 45
     },
-    "score": 1045
+    "score": 1048
   },
   {
     "name": "Lingayat Arya Kamlesh",
@@ -103,11 +103,11 @@
     "name": "YASH YOGESH BORA",
     "id": "yashbora",
     "data": {
-      "easySolved": 74,
-      "mediumSolved": 87,
-      "hardSolved": 5
+      "easySolved": 75,
+      "mediumSolved": 88,
+      "hardSolved": 6
     },
-    "score": 360
+    "score": 369
   },
   {
     "name": "Atharv Kirulkar",
@@ -540,6 +540,16 @@
     "score": 6
   },
   {
+    "name": "Atharv Arvind Deshmukh",
+    "id": "Code_Atharv07",
+    "data": {
+      "easySolved": 3,
+      "mediumSolved": 1,
+      "hardSolved": 0
+    },
+    "score": 6
+  },
+  {
     "name": "Tanishq Patil",
     "id": "Tanishq4008",
     "data": {
@@ -592,16 +602,6 @@
   {
     "name": "Chirag Budhbaware",
     "id": "chiragbudhbaware",
-    "data": {
-      "easySolved": 1,
-      "mediumSolved": 0,
-      "hardSolved": 0
-    },
-    "score": 1
-  },
-  {
-    "name": "Atharv Arvind Deshmukh",
-    "id": "Code_Atharv07",
     "data": {
       "easySolved": 1,
       "mediumSolved": 0,
