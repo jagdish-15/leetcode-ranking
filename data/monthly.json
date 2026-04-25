@@ -3,41 +3,41 @@
     "name": "Harshad Bhalsing",
     "id": "harsh-0_2",
     "data": {
-      "easySolved": 13,
-      "mediumSolved": 28,
+      "easySolved": 14,
+      "mediumSolved": 27,
       "hardSolved": 6
     },
-    "score": 127
+    "score": 125
   },
   {
     "name": "Aryan Shashikant Patil",
     "id": "aryanpatil123",
     "data": {
-      "easySolved": 4,
-      "mediumSolved": 30,
+      "easySolved": 3,
+      "mediumSolved": 28,
       "hardSolved": 0
     },
-    "score": 94
+    "score": 87
   },
   {
     "name": "YASH YOGESH BORA",
     "id": "yashbora",
     "data": {
-      "easySolved": 7,
-      "mediumSolved": 18,
+      "easySolved": 4,
+      "mediumSolved": 17,
       "hardSolved": 3
     },
-    "score": 76
+    "score": 70
   },
   {
     "name": "Atharv Kirulkar",
     "id": "atharvkirulkar",
     "data": {
-      "easySolved": 2,
-      "mediumSolved": 15,
+      "easySolved": 0,
+      "mediumSolved": 14,
       "hardSolved": 3
     },
-    "score": 62
+    "score": 57
   },
   {
     "name": "Shrinidhi Upadhye",
@@ -45,16 +45,6 @@
     "data": {
       "easySolved": 6,
       "mediumSolved": 7,
-      "hardSolved": 1
-    },
-    "score": 32
-  },
-  {
-    "name": "Vanshika Khanna",
-    "id": "Vanshikakhanna",
-    "data": {
-      "easySolved": 3,
-      "mediumSolved": 8,
       "hardSolved": 1
     },
     "score": 32
@@ -68,6 +58,16 @@
       "hardSolved": 3
     },
     "score": 30
+  },
+  {
+    "name": "Vanshika Khanna",
+    "id": "Vanshikakhanna",
+    "data": {
+      "easySolved": 3,
+      "mediumSolved": 7,
+      "hardSolved": 1
+    },
+    "score": 29
   },
   {
     "name": "Anurag",
@@ -113,11 +113,11 @@
     "name": "Rayyan Shaikh",
     "id": "RayyanShaikh",
     "data": {
-      "easySolved": 5,
+      "easySolved": 6,
       "mediumSolved": 5,
       "hardSolved": 0
     },
-    "score": 20
+    "score": 21
   },
   {
     "name": "Vaishnavi Borkar",
@@ -183,11 +183,11 @@
     "name": "Neevan Redkar",
     "id": "neevs1",
     "data": {
-      "easySolved": 1,
+      "easySolved": 2,
       "mediumSolved": 1,
       "hardSolved": 0
     },
-    "score": 4
+    "score": 5
   },
   {
     "name": "Sanskruti Thakur",
