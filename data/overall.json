@@ -15,9 +15,9 @@
     "data": {
       "easySolved": 119,
       "mediumSolved": 235,
-      "hardSolved": 45
+      "hardSolved": 46
     },
-    "score": 1049
+    "score": 1054
   },
   {
     "name": "Lingayat Arya Kamlesh",
@@ -33,11 +33,11 @@
     "name": "Anurag",
     "id": "anuragmuley",
     "data": {
-      "easySolved": 216,
-      "mediumSolved": 222,
+      "easySolved": 218,
+      "mediumSolved": 223,
       "hardSolved": 8
     },
-    "score": 922
+    "score": 927
   },
   {
     "name": "Saniya Gupte",
@@ -83,21 +83,21 @@
     "name": "Rajat malapur",
     "id": "rajatmalapur",
     "data": {
-      "easySolved": 138,
-      "mediumSolved": 83,
+      "easySolved": 140,
+      "mediumSolved": 86,
       "hardSolved": 6
     },
-    "score": 417
+    "score": 428
   },
   {
     "name": "Rayyan Shaikh",
     "id": "RayyanShaikh",
     "data": {
-      "easySolved": 111,
-      "mediumSolved": 81,
+      "easySolved": 112,
+      "mediumSolved": 82,
       "hardSolved": 9
     },
-    "score": 399
+    "score": 403
   },
   {
     "name": "YASH YOGESH BORA",
@@ -105,9 +105,9 @@
     "data": {
       "easySolved": 76,
       "mediumSolved": 88,
-      "hardSolved": 6
+      "hardSolved": 8
     },
-    "score": 370
+    "score": 380
   },
   {
     "name": "Atharv Kirulkar",
@@ -173,11 +173,11 @@
     "name": "Avinash Ganore",
     "id": "IAvii",
     "data": {
-      "easySolved": 33,
+      "easySolved": 34,
       "mediumSolved": 40,
       "hardSolved": 2
     },
-    "score": 163
+    "score": 164
   },
   {
     "name": "Yash Jawale",
@@ -480,6 +480,16 @@
     "score": 24
   },
   {
+    "name": "Atharv Arvind Deshmukh",
+    "id": "Code_Atharv07",
+    "data": {
+      "easySolved": 7,
+      "mediumSolved": 2,
+      "hardSolved": 2
+    },
+    "score": 23
+  },
+  {
     "name": "Yash G",
     "id": "00jXOB4uNf",
     "data": {
@@ -492,16 +502,6 @@
   {
     "name": "Chirag Budhbaware",
     "id": "t0sjULj9EQ",
-    "data": {
-      "easySolved": 5,
-      "mediumSolved": 1,
-      "hardSolved": 0
-    },
-    "score": 8
-  },
-  {
-    "name": "Atharv Arvind Deshmukh",
-    "id": "Code_Atharv07",
     "data": {
       "easySolved": 5,
       "mediumSolved": 1,
