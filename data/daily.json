@@ -4,10 +4,10 @@
     "id": "Code_Atharv07",
     "data": {
       "easySolved": 1,
-      "mediumSolved": 1,
+      "mediumSolved": 2,
       "hardSolved": 0
     },
-    "score": 4
+    "score": 7
   },
   {
     "name": "Harshad Bhalsing",
@@ -20,14 +20,14 @@
     "score": 3
   },
   {
-    "name": "ARCHANA KUMARI",
-    "id": "archana60",
+    "name": "rohanonleetcode :P",
+    "id": "Rohan-Mali",
     "data": {
-      "easySolved": 1,
-      "mediumSolved": 0,
+      "easySolved": 0,
+      "mediumSolved": 1,
       "hardSolved": 0
     },
-    "score": 1
+    "score": 3
   },
   {
     "name": "Neerad Ahire",
@@ -62,16 +62,6 @@
   {
     "name": "Saniya Gupte",
     "id": "SaniyaGupte",
-    "data": {
-      "easySolved": 0,
-      "mediumSolved": 0,
-      "hardSolved": 0
-    },
-    "score": 0
-  },
-  {
-    "name": "rohanonleetcode :P",
-    "id": "Rohan-Mali",
     "data": {
       "easySolved": 0,
       "mediumSolved": 0,
@@ -282,6 +272,16 @@
   {
     "name": "Pranav Sunilkumar Ijantkar",
     "id": "RagePool",
+    "data": {
+      "easySolved": 0,
+      "mediumSolved": 0,
+      "hardSolved": 0
+    },
+    "score": 0
+  },
+  {
+    "name": "ARCHANA KUMARI",
+    "id": "archana60",
     "data": {
       "easySolved": 0,
       "mediumSolved": 0,

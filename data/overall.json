@@ -14,10 +14,10 @@
     "id": "harsh-0_2",
     "data": {
       "easySolved": 119,
-      "mediumSolved": 237,
+      "mediumSolved": 238,
       "hardSolved": 46
     },
-    "score": 1060
+    "score": 1063
   },
   {
     "name": "Lingayat Arya Kamlesh",
@@ -54,10 +54,10 @@
     "id": "Rohan-Mali",
     "data": {
       "easySolved": 194,
-      "mediumSolved": 151,
+      "mediumSolved": 152,
       "hardSolved": 19
     },
-    "score": 742
+    "score": 745
   },
   {
     "name": "Mansi Wagh",
@@ -420,6 +420,16 @@
     "score": 41
   },
   {
+    "name": "Atharv Arvind Deshmukh",
+    "id": "Code_Atharv07",
+    "data": {
+      "easySolved": 13,
+      "mediumSolved": 6,
+      "hardSolved": 2
+    },
+    "score": 41
+  },
+  {
     "name": "Jagdish Prajapati",
     "id": "jagdish15",
     "data": {
@@ -456,16 +466,6 @@
       "easySolved": 10,
       "mediumSolved": 8,
       "hardSolved": 0
-    },
-    "score": 34
-  },
-  {
-    "name": "Atharv Arvind Deshmukh",
-    "id": "Code_Atharv07",
-    "data": {
-      "easySolved": 12,
-      "mediumSolved": 4,
-      "hardSolved": 2
     },
     "score": 34
   },
@@ -582,6 +582,16 @@
   {
     "name": "ramkrushanarokde2424@gmail.com",
     "id": "GANESH-06",
+    "data": {
+      "easySolved": 2,
+      "mediumSolved": 0,
+      "hardSolved": 0
+    },
+    "score": 2
+  },
+  {
+    "name": "Prajwal Barsagade",
+    "id": "Prajwal_0711",
     "data": {
       "easySolved": 2,
       "mediumSolved": 0,
