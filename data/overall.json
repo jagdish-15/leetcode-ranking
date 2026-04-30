@@ -334,10 +334,10 @@
     "id": "jeet_pachpande",
     "data": {
       "easySolved": 17,
-      "mediumSolved": 18,
+      "mediumSolved": 20,
       "hardSolved": 1
     },
-    "score": 76
+    "score": 82
   },
   {
     "name": "Kaustubh Rananaware",
@@ -390,6 +390,16 @@
     "score": 48
   },
   {
+    "name": "Atharv Arvind Deshmukh",
+    "id": "Code_Atharv07",
+    "data": {
+      "easySolved": 14,
+      "mediumSolved": 6,
+      "hardSolved": 3
+    },
+    "score": 47
+  },
+  {
     "name": "Reshma Babaleshwar",
     "id": "Reshma_Babaleshwar",
     "data": {
@@ -416,16 +426,6 @@
       "easySolved": 14,
       "mediumSolved": 9,
       "hardSolved": 0
-    },
-    "score": 41
-  },
-  {
-    "name": "Atharv Arvind Deshmukh",
-    "id": "Code_Atharv07",
-    "data": {
-      "easySolved": 13,
-      "mediumSolved": 6,
-      "hardSolved": 2
     },
     "score": 41
   },
