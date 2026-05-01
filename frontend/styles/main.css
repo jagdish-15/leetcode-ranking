@@ -1388,3 +1388,47 @@ body::-webkit-scrollbar-thumb {
     justify-self: center;
   }
 }
+
+/* ── Boot Sequence Overlay ── */
+.boot-overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--bg);
+  z-index: 99999;
+  padding: 2rem;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.95rem;
+  color: var(--text-dim);
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.boot-inner {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.boot-overlay.fade-out {
+  opacity: 0;
+  transform: scale(1.02);
+  pointer-events: none;
+}
+
+.boot-line {
+  margin-bottom: 0.2rem;
+  line-height: 1.4;
+  word-break: break-all;
+  animation: typing 0.1s steps(40, end);
+}
+
+.boot-ok {
+  color: var(--green);
+  font-weight: 700;
+  text-shadow: 0 0 5px rgba(0, 255, 65, 0.4);
+}
