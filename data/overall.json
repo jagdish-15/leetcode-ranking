@@ -13,11 +13,11 @@
     "name": "Harshad Bhalsing",
     "id": "harsh-0_2",
     "data": {
-      "easySolved": 119,
-      "mediumSolved": 238,
-      "hardSolved": 46
+      "easySolved": 120,
+      "mediumSolved": 240,
+      "hardSolved": 47
     },
-    "score": 1063
+    "score": 1075
   },
   {
     "name": "Lingayat Arya Kamlesh",
@@ -83,11 +83,11 @@
     "name": "Aryan Shashikant Patil",
     "id": "aryanpatil123",
     "data": {
-      "easySolved": 85,
+      "easySolved": 86,
       "mediumSolved": 126,
       "hardSolved": 14
     },
-    "score": 533
+    "score": 534
   },
   {
     "name": "Rajat malapur",
@@ -380,6 +380,16 @@
     "score": 56
   },
   {
+    "name": "Atharv Arvind Deshmukh",
+    "id": "Code_Atharv07",
+    "data": {
+      "easySolved": 14,
+      "mediumSolved": 8,
+      "hardSolved": 3
+    },
+    "score": 53
+  },
+  {
     "name": "Vanshika Khanna",
     "id": "Vanshikakhanna",
     "data": {
@@ -388,16 +398,6 @@
       "hardSolved": 1
     },
     "score": 48
-  },
-  {
-    "name": "Atharv Arvind Deshmukh",
-    "id": "Code_Atharv07",
-    "data": {
-      "easySolved": 14,
-      "mediumSolved": 6,
-      "hardSolved": 3
-    },
-    "score": 47
   },
   {
     "name": "Reshma Babaleshwar",
@@ -510,6 +510,16 @@
     "score": 17
   },
   {
+    "name": "Aditya Kulkarni",
+    "id": "adi_k06",
+    "data": {
+      "easySolved": 8,
+      "mediumSolved": 0,
+      "hardSolved": 0
+    },
+    "score": 8
+  },
+  {
     "name": "Chirag Budhbaware",
     "id": "t0sjULj9EQ",
     "data": {
@@ -518,16 +528,6 @@
       "hardSolved": 0
     },
     "score": 8
-  },
-  {
-    "name": "Aditya Kulkarni",
-    "id": "adi_k06",
-    "data": {
-      "easySolved": 7,
-      "mediumSolved": 0,
-      "hardSolved": 0
-    },
-    "score": 7
   },
   {
     "name": "Meet Kasat ",
