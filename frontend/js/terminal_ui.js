@@ -26,15 +26,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 element.innerText = text.substring(0, i + 1);
                 i++;
                 if(i >= text.length) clearInterval(interval);
-            }, 60); // Fast typing speed
+            }, 60);
         }
     }
 
-    // 2. Mock Bash Substring Form Inputs
+    // 2. Mock Bash Form Inputs
     const formInputs = document.querySelectorAll('.form-input');
     
     formInputs.forEach(input => {
-        // Skip generic styling and wrap it in a flex container
         const wrapper = document.createElement('div');
         wrapper.className = 'form-input-bash-wrapper';
         
@@ -43,9 +42,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const prefix = document.createElement('span');
         prefix.className = 'bash-prefix';
         
-        // Define terminal variable string
-        const cmdName = input.id === 'leetcodeId' ? 'username' : input.id;
-        const fullPrefix = `> set ${cmdName}="`;
+        // Use query-style wording — we are LOOKING UP an existing LeetCode UID, not setting one
+        const cmdName = input.id === 'leetcodeId' ? 'uid' : input.id;
+        const fullPrefix = `> query --${cmdName}="`;
         
         const suffix = document.createElement('span');
         suffix.className = 'bash-suffix';
@@ -55,13 +54,20 @@ document.addEventListener("DOMContentLoaded", () => {
         wrapper.appendChild(input);
         wrapper.appendChild(suffix);
         
-        // Remove structural borders from the input native object so flex handles boundaries
+        // Remove structural borders from the input so the flex wrapper handles all boundaries
         input.classList.add('bash-active');
+        
+        // Save original placeholder
+        const originalPlaceholder = input.placeholder;
         
         let typeInt;
         
         input.addEventListener('focus', () => {
             if (prefix.innerText === fullPrefix) return; // Already rendered
+            
+            // Clear placeholder and any existing value so the command prompt starts clean
+            input.placeholder = "";
+            input.value = "";
             
             clearInterval(typeInt);
             let i = 0;
@@ -79,9 +85,9 @@ document.addEventListener("DOMContentLoaded", () => {
         });
         
         input.addEventListener('blur', () => {
-            // Un-render terminal prompt if empty string logic exists. 
             if (input.value === '') {
                 clearInterval(typeInt);
+                input.placeholder = originalPlaceholder;
                 prefix.innerText = '';
                 suffix.style.opacity = '0';
             }
