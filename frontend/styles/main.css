@@ -45,6 +45,22 @@ body {
   font-size: 14px;
 }
 
+/* ── CRT Screen Glow & Scanlines ── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%,
+    rgba(0, 255, 65, 0.04) 50%,
+    rgba(0, 0, 0, 0) 51%
+  );
+  background-size: 100% 300%;
+  animation: crtScan 10s linear infinite;
+}
+
 /* ── CRT Scanline Overlay ── */
 body::after {
   content: '';
@@ -290,7 +306,9 @@ body::after {
   height: 100vh;
   pointer-events: none;
   z-index: -1;
-  opacity: 0.6;
+  opacity: 0.65;
+  mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 100%);
+  -webkit-mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 100%);
 }
 
 .hero-content {
@@ -317,6 +335,7 @@ body::after {
   color: var(--green);
   text-shadow: 0 0 30px rgba(0, 255, 65, 0.4), 0 0 60px rgba(0, 255, 65, 0.15);
   animation: glow-pulse 4s ease-in-out infinite;
+  transition: all 0.25s ease;
 }
 
 .hero-subtitle {
@@ -362,6 +381,10 @@ body::after {
 
 .btn::after {
   content: ' ]';
+}
+
+.btn:hover, .contact-btn:hover {
+  animation: glitch-anim-text 0.35s cubic-bezier(.25, .46, .45, .94) both;
 }
 
 .btn-primary {
@@ -1512,4 +1535,32 @@ body::-webkit-scrollbar-thumb {
 @keyframes slideUpFade {
   from { opacity: 0; transform: translateY(5px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Glitch Effects ── */
+@keyframes glitch-anim-text {
+  0% { 
+    text-shadow: 2px 0 #ff003c, -2px 0 #00e5ff; 
+    transform: translate(2px, 2px) skewX(6deg); 
+  }
+  20% { 
+    text-shadow: -2px 0 #ff003c, 2px 0 #00e5ff; 
+    transform: translate(-2px, -1px) skewX(-6deg); 
+  }
+  40% { 
+    text-shadow: 2px 0 #ff003c, -2px 0 #00e5ff; 
+    transform: translate(1px, 2px) skewX(2deg); 
+  }
+  60% { 
+    text-shadow: -2px 0 #ff003c, 2px 0 #00e5ff; 
+    transform: translate(-1px, 1px) skewX(-2deg); 
+  }
+  80% { 
+    text-shadow: 2px 0 #ff003c, -2px 0 #00e5ff; 
+    transform: translate(2px, -2px) skewX(4deg); 
+  }
+  100% { 
+    text-shadow: none; 
+    transform: translate(0, 0) skewX(0deg); 
+  }
 }
