@@ -470,6 +470,13 @@ body::after {
 }
 
 .page-title::after {
+  content: '_';
+  color: var(--green);
+  animation: blink 1s step-end infinite;
+  margin-left: 4px;
+}
+
+.page-title::after {
   content: ' _';
   animation: blink 1s step-end infinite;
   color: var(--green);
@@ -768,6 +775,47 @@ body::after {
 .form-input:focus {
   border-color: var(--green);
   box-shadow: 0 0 0 3px rgba(0, 255, 65, 0.08), 0 0 15px rgba(0, 255, 65, 0.1);
+}
+
+/* ── Interactive Bash Form Inputs ── */
+.form-input-bash-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-bright);
+  background: var(--bg);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  cursor: text;
+}
+
+.form-input-bash-wrapper:focus-within {
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px rgba(0, 255, 65, 0.08), 0 0 15px rgba(0, 255, 65, 0.1);
+}
+
+.bash-prefix {
+  color: var(--text-muted);
+  font-family: 'Fira Code', monospace;
+  white-space: pre;
+  font-size: 0.9rem;
+}
+
+.bash-suffix {
+  color: var(--text-muted);
+  font-family: 'Fira Code', monospace;
+  opacity: 0;
+  font-size: 0.9rem;
+}
+
+.form-input.bash-active {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0;
+  background: transparent;
+  flex: 1;
+  margin-left: 2px;
 }
 
 .form-input::placeholder {

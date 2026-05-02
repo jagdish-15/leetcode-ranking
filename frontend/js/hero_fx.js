@@ -98,16 +98,16 @@ document.addEventListener("DOMContentLoaded", () => {
         const content = document.getElementById('live-feed-content');
         
         const possibleLogs = [
-            "[OK] Syncing LeetCode user data...",
-            "User 'coder123' solved [Easy: Two Sum] -> +1pt",
-            "User 'ninja_dev' reached Top 3!",
-            "User 'hacker99' solved [Hard: N-Queens] -> +5pt",
-            "[SYSTEM] Rank recalculation completed",
-            "User 'pvg_student' submitted solution... accepted",
-            "User 'algo_master' resolved [Medium: LRU Cache] -> +3pt",
-            "Daily challenge rollover in 02:45:00",
-            "[INFO] 4 new users registered today",
-            "Connection to API stable at 24ms"
+            "SYS_STAT: DB Connection [ESTABLISHED] ... 12ms",
+            "SYNC_REQ: LeetCode API handshake -> HTTP 200",
+            "CRON: Fetching user differentials... [OK]",
+            "EXEC: rank_algorithm.sh --update-all",
+            "LOG: UID[491] TwoSum -> +1pt (O(N) resolved)",
+            "LOG: UID[982] reached threshold [TOP 3 PERCENTILE]",
+            "WARN: Rate limit threshold at 84%, scaling down ping",
+            "LOG: UID[113] Hard:N-Queens submitted -> VERIFIED (+5pt)",
+            "SYS: Compiling daily challenge rollovers... DONE",
+            "INIT: WSS:// realtime socket opened on port 8080"
         ];
         
         function appendLog() {
