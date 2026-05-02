@@ -270,7 +270,7 @@ body::after {
 .hero {
   min-height: 100vh;
   width: 100%;
-  background: var(--bg);
+  background: transparent;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1430,4 +1430,86 @@ body::-webkit-scrollbar-thumb {
   color: var(--green);
   font-weight: 700;
   text-shadow: 0 0 5px rgba(0, 255, 65, 0.4);
+}
+
+/* ── Mock Shell & Live Feed ── */
+.mock-shell {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.shell-line {
+  margin-bottom: 0.75rem;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9rem;
+  color: var(--text-dim);
+}
+
+.shell-line.hidden, .shell-output.hidden {
+  display: none !important;
+}
+
+.prompt {
+  color: var(--green);
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.typing-text {
+  color: var(--cyan);
+}
+
+.shell-output {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--border);
+  margin-bottom: 1.5rem;
+  opacity: 0;
+}
+
+/* ── Live Feed ── */
+.live-feed {
+  margin-top: 3rem;
+  background: rgba(0,0,0,0.4);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: left;
+  opacity: 0;
+}
+
+.live-feed-header {
+  background: var(--bg);
+  padding: 0.4rem 0.8rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+}
+
+.live-feed-content {
+  padding: 0.8rem;
+  height: 120px;
+  overflow-y: auto;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.75rem;
+  color: var(--green-dim);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.feed-log-line {
+  margin-bottom: 0.3rem;
+  animation: slideUpFade 0.3s ease-out;
+}
+
+.feed-time {
+  color: var(--text-muted);
+  margin-right: 6px;
+}
+
+@keyframes slideUpFade {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
 }

@@ -15,38 +15,61 @@
 </head>
 
 <body>
+    <canvas id="matrix-canvas"></canvas>
     <main class="hero">
         <div class="hero-content">
-            <p style="color: var(--text-muted); font-size: 0.82rem; margin-bottom: 1rem;">
-                $ cat /home/codepvg/welcome.txt
-            </p>
+            <h1 class="hero-title decryption-title" data-target="CodePVG Leaderboard">
+                <span>CodePVG Leaderboard</span><span class="cursor blink">_</span>
+            </h1>
 
-            <h1 class="hero-title">CodePVG<br>Leaderboard</h1>
-
-            <p class="hero-subtitle">
+            <p class="hero-subtitle" style="margin-bottom: 2.5rem;">
                 > solve problems. climb ranks. repeat daily.<br>
                 > your leetcode grind, tracked & ranked.
             </p>
 
-            <div class="hero-buttons">
-                <a href="/leaderboard" class="btn btn-primary">
-                    view_leaderboard
-                </a>
-                <a href="/registration" class="btn btn-secondary">
-                    register_now
-                </a>
+            <div class="mock-shell">
+                <div class="shell-line hidden" id="cmd-1">
+                    <span class="prompt">guest@codepvg:~$</span> <span class="typing-text" data-cmd="cat /home/codepvg/README.md"></span>
+                </div>
+                
+                <div class="shell-output hidden" id="out-1">
+                    <div class="hero-description" style="margin: 0; max-width: 100%;">
+                        <p>
+                            An open leaderboard for all PVG students grinding LeetCode. We auto-track your daily,
+                            weekly, and overall progress — awarding points based on difficulty.
+                            Join the community, climb the ranks, and watch yourself level up.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="shell-line hidden" id="cmd-2">
+                    <span class="prompt">guest@codepvg:~$</span> <span class="typing-text" data-cmd="./show_options.sh"></span>
+                </div>
+                
+                <div class="shell-output hidden" id="out-2">
+                    <div class="hero-buttons" style="margin-top: 1rem;">
+                        <a href="/leaderboard" class="btn btn-primary">
+                            view_leaderboard
+                        </a>
+                        <a href="/registration" class="btn btn-secondary">
+                            register_now
+                        </a>
+                    </div>
+                </div>
             </div>
 
-            <div class="hero-description">
-                <p>
-                    An open leaderboard for all PVG students grinding LeetCode. We auto-track your daily,
-                    weekly, and overall progress — awarding points based on difficulty.
-                    Join the community, climb the ranks, and watch yourself level up.
-                </p>
+            <!-- Live Activity Feed -->
+            <div class="live-feed hidden">
+                <div class="live-feed-header">tail -f /var/log/leetcode_sync.log</div>
+                <div class="live-feed-content" id="live-feed-content">
+                    <!-- Populated dynamically by JS -->
+                </div>
             </div>
         </div>
     </main>
     <script src="js/boot.js"></script>
+    <script src="js/hero_fx.js"></script>
+    <script src="js/matrix.js"></script>
 </body>
 
 </html>

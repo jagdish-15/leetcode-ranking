@@ -68,6 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     if (heroContent) {
                         heroContent.style.visibility = 'visible';
                         heroContent.style.animation = 'fadeIn 0.8s ease-out forwards';
+                        document.dispatchEvent(new Event('bootSequenceComplete'));
                     }
                 }, 400); // Wait for fade out
             }, 400); // Short pause before fading out
