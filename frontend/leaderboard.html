@@ -70,11 +70,11 @@
             setActiveTab('overall');
         }
 
-        function getRankIcon(rank) {
+        function getRankTag(rank) {
             switch (rank) {
-                case 1: return '👑';
-                case 2: return '🥈';
-                case 3: return '🥉';
+                case 1: return '<span class="privilege-tag root-tag">[ROOT]</span>';
+                case 2: return '<span class="privilege-tag sudo-tag">[SUDO]</span>';
+                case 3: return '<span class="privilege-tag exec-tag">[EXEC]</span>';
                 default: return '';
             }
         }
@@ -88,14 +88,14 @@
             
             data.forEach((user, index) => {
                 const rank = index + 1;
-                const icon = getRankIcon(rank);
+                const tag = getRankTag(rank);
                 const leetcodeUrl = `https://leetcode.com/u/${user.id}`;
 
                 const row = document.createElement('div');
                 row.className = 'leaderboard-row';
                 row.innerHTML = `
-                    <div class="rank">${icon} ${rank}</div>
-                    <div>${user.name}</div>
+                    <div class="rank">${rank}</div>
+                    <div class="name-cell">${tag}${user.name}</div>
                     <div class="username"><a href="https://leetcode.com/u/${user.id}" target="_blank" class="user-link">${user.id}</a></div>
                     <div class="easy">${user.data.easySolved}</div>
                     <div class="medium">${user.data.mediumSolved}</div>
@@ -108,10 +108,10 @@
                 card.className = 'mobile-card';
                 card.innerHTML = `
                     <div class="mobile-card-header">
-                        <div class="mobile-rank">${icon} #${rank}</div>
+                        <div class="mobile-rank">#${rank}</div>
                         <div class="mobile-score">${user.score}</div>
                     </div>
-                    <div class="mobile-name">${user.name}</div>
+                    <div class="mobile-name">${tag}${user.name}</div>
                     <div class="mobile-username"><a href="https://leetcode.com/u/${user.id}" target="_blank" class="user-link">${user.id}</a></div>
                     <div class="mobile-stats">
                         <div class="mobile-stat">
