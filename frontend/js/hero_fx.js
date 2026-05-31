@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function startDecryption() {
-        const titleContainer = document.querySelector(".decryption-title");
+    const titleContainer = document.querySelector(".decryption-title");
     if (!titleContainer) return;
-     
+
     const titleSpan = titleContainer.querySelector("span:first-child");
     const targetText = titleContainer.getAttribute("data-target");
 
