@@ -8,7 +8,10 @@ async function fetchUserInfo(username) {
   let ranking = null;
   let badges = [];
 
-  const liveApiUrl = `https://leetcode-api-dun.vercel.app/${username}`;
+
+  
+  const liveApiUrl = 
+    `https://leetcode-api-dun.vercel.app/${username}`;
   const cacheBuster = Date.now();
   const rawUrl = `https://raw.githubusercontent.com/codepvg/leetcode-ranking-data/main/user-data/${username}.json?t=${cacheBuster}`;
 
